@@ -152,4 +152,7 @@ phil.make_drink
 ```
 The `choose_liquor` method was called without any receiver. Ruby sees the missing receiver and assumes it to be self, or the current object. When `choose_liquor` is called, self is an instance of Bartender. Only a Bartender object can tell itself to choose a liquor, a mixer, and a garnish. Phil can tell himself to choose a liquor, garnish, etc., but we cannot instruct Phil to do so. Private methods restrict an outsider from calling methods that belong to an object. However, we, as customers, are free to ask a bartender to make us a drink (`make_drink`).
 
+## Does this need an update?
+ Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-ruby-public-private-methods-readme/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-ruby-public-private-methods-readme/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
+
 <p data-visibility='hidden'>PHRG Private Methods</p>
